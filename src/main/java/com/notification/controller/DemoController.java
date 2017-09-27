@@ -67,7 +67,7 @@ public class DemoController {
     private void showNotification(Pos position) {
         if (rbSuccess.isSelected()) {
             JFXNotifications.create().title("Notificacion satisfactoria")
-                    .text("Este es un mensaje de prueba, de satisfactorio R")
+                    .text("Este es un mensaje de prueba, de satisfactorio")
                     .hideAfter(Duration.seconds(5))
                     .position(position).showSuccess();
         }

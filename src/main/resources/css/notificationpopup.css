@@ -12,12 +12,14 @@
 
 .notification-bar > .pane .title {
     -fx-font-size: 1.166667em; /*15px;*/
+    -fx-font-family: "Roboto";
     -fx-text-fill: WHITE;
     -fx-font-weight: bold;
 }
 
 .notification-bar > .pane .message {
     -fx-font-size: 1.166667em; /*15px;*/
+    -fx-font-family: "Roboto";
     -fx-text-fill: WHITE;
  }
 
